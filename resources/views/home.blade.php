@@ -24,6 +24,9 @@
             @foreach($movies as $movie)
             <div class="col">
                 <div class="card">
+                    <div class="card-img">
+                        <img src="{{$movie->poster_img}}" alt="{{$movie->title}}" class="card-img-top">
+                    </div>
                     <div class="card-body">
                         <h6>{{$movie->title}}</h6>
                         <p>{{$movie->original_title}}</p>

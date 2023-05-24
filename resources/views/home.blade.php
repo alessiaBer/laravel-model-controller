@@ -33,7 +33,7 @@
                             <p>{{$movie->original_title}}</p>
                             <span class="d-block">Nationality: {{$movie->nationality}}</span>
                             <span class="d-block">Vote: {{$movie->vote}}</span>
-                            <span class="d-block">Date: {{$movie->date}}</span>
+                            <span class="d-block">Year: {{date('Y', strtotime($movie->date))}}</span>
                         </div>
                     </div>
                 </div>

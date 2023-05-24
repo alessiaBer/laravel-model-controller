@@ -1,1 +1,27 @@
 @import '~bootstrap/scss/bootstrap';
+
+main {
+    h1 {
+        text-shadow: 1px 1px 2px red;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
+    }
+    .col {
+        padding-bottom: 2rem;
+    }
+    .card {
+        height: 100%;
+        box-shadow: 1px 1px 3px $secondary;
+        .card-img {
+            height: 300px;
+            img {
+                object-position: 100% 0;
+                min-height: 100%;
+            }
+        }
+        .card-body {
+            font-size: 0.7rem;
+        }
+
+    }
+}
